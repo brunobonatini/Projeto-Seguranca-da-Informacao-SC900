@@ -165,7 +165,8 @@ O Purview se integra perfeitamente com outras soluções Microsoft, como o Micro
 
 ### Valores do projeto
 
-![image](https://github.com/brunobonatini/Projeto-Seguranca-da-Informacao-EDN/assets/105396325/94f38382-db4d-48c2-ae8a-0026429ca719)
+![image](https://github.com/brunobonatini/Projeto-Seguranca-da-Informacao-SC900/assets/105396325/1d1bf5c5-d045-49e1-9aea-ef00e87ab346)
+
 
 
 
