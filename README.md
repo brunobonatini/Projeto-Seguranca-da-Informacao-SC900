@@ -2,7 +2,7 @@
 
 ![image](https://github.com/brunobonatini/Projeto-Seguranca-da-Informacao-EDN/assets/105396325/0bfc469b-8328-439c-a705-6693ae1cc945)
 
-## Problema
+## Estudo de Caso
 
 Sua consultoria está sendo contratada pelo Tribunal de Justiça do Distrito Federal, pois 
 ao buscar a ISO 27001, eles perceberam alguns pontos de melhorias no tange Segurança da 
