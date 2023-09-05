@@ -1,4 +1,4 @@
-# Projeto - Segurança da Informacao EDN - Microsoft Azure SC900
+# Projeto - Segurança da Informacao - Microsoft Azure SC900
 
 ![image](https://github.com/brunobonatini/Projeto-Seguranca-da-Informacao-EDN/assets/105396325/0bfc469b-8328-439c-a705-6693ae1cc945)
 
@@ -24,6 +24,8 @@ sugere para melhorar a segurança neste ambiente?
 
 ![image](https://github.com/brunobonatini/Projeto-Seguranca-da-Informacao-EDN/assets/105396325/199628be-7c97-40af-b247-a692d9c1bfc3)
 
+### Solução
+
 O Microsoft Defender for Endpoint oferece detecção proativa e em tempo real de ameaças, identificando e bloqueando ataques de malware, ransomware, phishing e outras ameaças cibernéticas antes que possam causar danos. Isso garantirá uma camada eficaz de proteção para todas as estações de trabalho.
 
 A solução permite o controle de dispositivos e aplicativos em todas as estações, ajudando a evitar a execução de software não autorizado ou perigoso. Isso é muito importante em um ambiente onde os usuários tinham acesso Admin e podiam instalar softwares sem restrições. 
@@ -39,6 +41,8 @@ para acessar o Sharepoint do TJDF, o OneDrive, Teams e Contas de E-mail do ambie
 mesmo ter algum recurso de segurança para isto. O que podemos sugerir para este cenário?
 
 ![image](https://github.com/brunobonatini/Projeto-Seguranca-da-Informacao-EDN/assets/105396325/e1ea8a46-ef75-4660-b35a-7aeee610650f)
+
+### Solução
 
 O Microsoft Intune é um serviço de gerenciamento de mobilidade empresarial (EMM) baseado na nuvem que faz parte do conjunto de soluções de produtividade e segurança da Microsoft. Ele foi projetado para ajudar as organizações a gerenciar dispositivos móveis, aplicativos e configurações de segurança de forma centralizada.
 
@@ -68,6 +72,8 @@ qual camada de armazenamento utilizar?
 
 ![image](https://github.com/brunobonatini/Projeto-Seguranca-da-Informacao-EDN/assets/105396325/67d4bbb5-1177-4c38-acc1-997e5557b30a)
 
+### Solução
+
 O Armazenamento no Azure é altamente escalável, permitindo que você aumente ou diminua a capacidade de armazenamento conforme necessário. Isso é importante para acomodar os aproximadamente 47TB de dados processuais e para garantir espaço para futuros crescimentos.
 
 O Armazenamento no Azure oferece criptografia automática em repouso, o que significa que seus dados processuais estarão protegidos mesmo quando estiverem armazenados. A criptografia é uma medida fundamental para a segurança dos dados.
@@ -82,6 +88,8 @@ são oriundas apenas do BRASIL. Que tipo de solução podemos oferecer e como po
 esta solução em meu ambiente? É Gratuitamente?
 
 ![image](https://github.com/brunobonatini/Projeto-Seguranca-da-Informacao-EDN/assets/105396325/0dbb390e-8f8a-4df1-94a0-0fe0a5e76a03)
+
+### Solução
 
 O Acesso Condicional permite que você defina políticas de acesso com base em várias condições, como localização geográfica, estado do dispositivo e autenticação MFA multifator. Você pode configurar uma política para permitir o acesso apenas a partir de locais específicos, neste caso, o Brasil.
 
@@ -100,6 +108,8 @@ entre os computadores, monitorando tudo o que sai. O que ofertar nestes cenário
 
 ![image](https://github.com/brunobonatini/Projeto-Seguranca-da-Informacao-EDN/assets/105396325/3e8736df-a2d4-4a1a-9c16-b7c581fdaf7f)
 
+### Solução
+
 O Purview permite a descoberta e catalogação de todos os dados existentes no ambiente, incluindo dados sensíveis e informações confidenciais.
 
 O Purview oferece controle granular sobre quem pode acessar e interagir com os dados. As permissões podem ser gerenciadas de forma centralizada.
@@ -115,6 +125,8 @@ possibilidade de, com base nestes dados coletados, dispararmos processos automat
 para tratar alguns casos e/ou anomalias no ambiente. O que podemos utilizar aqui?
 
 ![image](https://github.com/brunobonatini/Projeto-Seguranca-da-Informacao-EDN/assets/105396325/8cb4857a-d70e-4f98-8c8d-807a464bf2c1)
+
+### Solução
 
 Azure Firewall e o Network Security Groups (NSG) será utilizado para centralizar a coleta de dados de infraestrutura, software e recursos, além de permitir a automação de processos para tratar casos e anomalias no ambiente de maneira eficaz.
 
@@ -138,6 +150,8 @@ ambiente deles, por isso é importante que você explique os principais recursos
 de que maneira ele pode ser adotado no ambiente.
 
 ![image](https://github.com/brunobonatini/Projeto-Seguranca-da-Informacao-EDN/assets/105396325/c25faf95-77f4-4ed0-8bf8-541bb6335e6f)
+
+### Solução
 
 O Microsoft Purview é uma plataforma de governança de dados que oferece uma série de recursos que podem ser altamente benéficos para melhorar a segurança do ambiente do TJDF (Tribunal de Justiça do Distrito Federal).
 
