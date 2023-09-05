@@ -1,4 +1,4 @@
-# Projeto - Segurança da Informacao - Microsoft Azure SC900
+# Projeto - Segurança da Informação - Microsoft Azure SC900
 
 ![image](https://github.com/brunobonatini/Projeto-Seguranca-da-Informacao-EDN/assets/105396325/0bfc469b-8328-439c-a705-6693ae1cc945)
 
