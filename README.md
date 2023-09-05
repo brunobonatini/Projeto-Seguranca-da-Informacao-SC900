@@ -30,3 +30,46 @@ A solução permite o controle de dispositivos e aplicativos em todas as estaç�
 O Defender for Endpoint pode ajudar a reduzir os privilégios administrativos concedidos aos usuários, seguindo as melhores práticas de segurança. A ferramenta realiza análises de vulnerabilidades nas estações para identificar e remediar potenciais pontos fracos no sistema.
 
 O Microsoft Defender for Endpoint se integra perfeitamente com outros produtos Microsoft, como o Microsoft Intune (que pode ser usado para gerenciamento de dispositivos móveis), criando um ambiente de segurança bastante eficaz.
+
+### Problema 2
+
+Além das 267 estações de trabalho, o TJDF possui 29 iPads que são utilizados por Juízes
+durante as audiências. Estes iPads não estão ingressados no intune, mas eles são utilizados 
+para acessar o Sharepoint do TJDF, o OneDrive, Teams e Contas de E-mail do ambiente, sem 
+mesmo ter algum recurso de segurança para isto. O que podemos sugerir para este cenário?
+
+![image](https://github.com/brunobonatini/Projeto-Seguranca-da-Informacao-EDN/assets/105396325/e1ea8a46-ef75-4660-b35a-7aeee610650f)
+
+O Microsoft Intune é um serviço de gerenciamento de mobilidade empresarial (EMM) baseado na nuvem que faz parte do conjunto de soluções de produtividade e segurança da Microsoft. Ele foi projetado para ajudar as organizações a gerenciar dispositivos móveis, aplicativos e configurações de segurança de forma centralizada.
+
+O Intune permite que você gerencie todos os dispositivos, incluindo iPads, de forma centralizada por meio de uma única interface baseada na nuvem.
+
+Com o Intune, você pode aplicar políticas de segurança consistentes em todos os iPads. Isso inclui requisitos de senha, criptografia de dados, restrições de aplicativos e configurações de rede, garantindo que os dispositivos estejam em conformidade com os padrões de segurança da organização.
+
+O Intune oferece recursos para rastrear e localizar dispositivos perdidos ou roubados e tomar medidas remotas, como bloquear ou apagar dados confidenciais, caso seja necessário.
+
+O Azure AD faz a restrição do acesso aos recursos somente para dispositivos e conexões confiáveis.
+Faz também a proteção contra acesso não autorizado e ameaças cibernéticas, minimizando riscos.
+
+### Problema 3
+
+O TJDF está no projeto de digitalização de todo os seus processos, com isto, será necessário 
+pensar em uma solução que atenda aos seguintes requisitos:
+
+A. Um tipo de armazenamento que onde possamos guardar aproximadamente 47TB de 
+dados processuais com margem para um futuro crescimento.
+
+B. Por compliance, os dados não podem sair do Brasil. 
+
+C. Que os dados possuam criptografia, mesmo quando estão em repouso.
+
+D. Que processos com mais de 180 dias pós julgados sejam arquivados automaticamente, 
+qual camada de armazenamento utilizar?
+
+![image](https://github.com/brunobonatini/Projeto-Seguranca-da-Informacao-EDN/assets/105396325/67d4bbb5-1177-4c38-acc1-997e5557b30a)
+
+O Armazenamento no Azure é altamente escalável, permitindo que você aumente ou diminua a capacidade de armazenamento conforme necessário. Isso é importante para acomodar os aproximadamente 47TB de dados processuais e para garantir espaço para futuros crescimentos.
+
+O Armazenamento no Azure oferece criptografia automática em repouso, o que significa que seus dados processuais estarão protegidos mesmo quando estiverem armazenados. A criptografia é uma medida fundamental para a segurança dos dados.
+
+A camada de Armazenamento de Blob "Archive" no Azure é adequada para armazenamento de longo prazo e é otimizada para dados raramente acessados. Ela oferece custos mais baixos em comparação com outras camadas, tornando-a ideal para arquivamento de processos judiciais.
