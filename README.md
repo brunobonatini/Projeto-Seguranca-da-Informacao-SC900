@@ -126,6 +126,37 @@ Os NSGs são conjuntos de regras de segurança que podem ser aplicados a nível 
 
 Os NSGs permitem centralizar a definição de regras de segurança que determinam quais tipos de tráfego são permitidos ou bloqueados.
 
+Microsoft Sentinel é responsável pela coleta de dados de diversas fontes para uma visão abrangente da infraestrutura e ameaças. Dispara alertas automatizados e ações de resposta para mitigar ameaças em tempo real.
+
+O Sentinel realiza o monitoramento contínuo e relatórios detalhados para melhor compreensão da postura de segurança.
+
+### Problema 7
+
+O TJDF tomou conhecimento de uma ferramenta da Microsoft chamada Purview, mas eles 
+não fazem ideia de como esta ferramenta pode auxiliar em termos de segurança no 
+ambiente deles, por isso é importante que você explique os principais recursos existentes e 
+de que maneira ele pode ser adotado no ambiente.
+
+![image](https://github.com/brunobonatini/Projeto-Seguranca-da-Informacao-EDN/assets/105396325/c25faf95-77f4-4ed0-8bf8-541bb6335e6f)
+
+O Microsoft Purview é uma plataforma de governança de dados que oferece uma série de recursos que podem ser altamente benéficos para melhorar a segurança do ambiente do TJDF (Tribunal de Justiça do Distrito Federal).
+
+O Purview oferece recursos de classificação automatizada de dados com base em políticas predefinidas ou personalizadas. Permite o monitoramento detalhado de quem acessa, modifica ou compartilha dados, fornecendo uma trilha de auditoria completa.
+
+A plataforma é capaz de identificar padrões de uso anômalos que podem indicar atividades suspeitas ou tentativas de violação de segurança.
+
+O Purview permite a definição de políticas de retenção e descarte de dados, isso garante que informações não sejam mantidas indefinidamente e estejam em conformidade com regulamentações.
+
+O Purview se integra perfeitamente com outras soluções Microsoft, como o Microsoft 365 e o Azure, facilitando a implementação e a gestão no ambiente do TJDF.
+
+### Valores do projeto
+
+![image](https://github.com/brunobonatini/Projeto-Seguranca-da-Informacao-EDN/assets/105396325/94f38382-db4d-48c2-ae8a-0026429ca719)
+
+
+
+
+
 
 
 
