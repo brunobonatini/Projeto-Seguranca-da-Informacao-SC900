@@ -73,3 +73,59 @@ O Armazenamento no Azure é altamente escalável, permitindo que você aumente o
 O Armazenamento no Azure oferece criptografia automática em repouso, o que significa que seus dados processuais estarão protegidos mesmo quando estiverem armazenados. A criptografia é uma medida fundamental para a segurança dos dados.
 
 A camada de Armazenamento de Blob "Archive" no Azure é adequada para armazenamento de longo prazo e é otimizada para dados raramente acessados. Ela oferece custos mais baixos em comparação com outras camadas, tornando-a ideal para arquivamento de processos judiciais.
+
+### Problema 4
+
+Temos no TJDF alguns Storage Account, e, tanto estes recursos quanto outros recursos no 
+Microsoft 365 somente devem ser acessados por equipamentos do TJDF e por conexões que 
+são oriundas apenas do BRASIL. Que tipo de solução podemos oferecer e como posso ter 
+esta solução em meu ambiente? É Gratuitamente?
+
+![image](https://github.com/brunobonatini/Projeto-Seguranca-da-Informacao-EDN/assets/105396325/0dbb390e-8f8a-4df1-94a0-0fe0a5e76a03)
+
+O Acesso Condicional permite que você defina políticas de acesso com base em várias condições, como localização geográfica, estado do dispositivo e autenticação MFA multifator. Você pode configurar uma política para permitir o acesso apenas a partir de locais específicos, neste caso, o Brasil.
+
+Na Autenticação Multifator (MFA), além de restringir o acesso por localização geográfica, você pode adicionar uma camada adicional de segurança exigindo autenticação multifator para garantir que apenas usuários autorizados possam acessar recursos críticos.
+
+Não é Gratuito, mas Essencial: O Acesso Condicional é uma característica do Azure AD Premium, que é uma assinatura paga. Embora não seja gratuito, o investimento em segurança é essencial para proteger os recursos críticos do TJDF contra acessos não autorizados e ameaças cibernéticas.
+
+Licenças Gratuitas: Com uma licença gratuita do Azure AD, você pode configurar políticas de Acesso Condicional simples, como bloquear o acesso de dispositivos não confiáveis ou exigir MFA para determinados usuários.
+
+### Problema 5
+
+Temos algumas aplicações no ambiente no qual precisamos proteger. Além disto, estamos 
+em um ambiente muito crítico no qual qualquer vazamento de dados, pode comprometer 
+o TJDF de uma maneira muito delicada, por isso precisamos controlar o tráfego de dados 
+entre os computadores, monitorando tudo o que sai. O que ofertar nestes cenários? 
+
+![image](https://github.com/brunobonatini/Projeto-Seguranca-da-Informacao-EDN/assets/105396325/3e8736df-a2d4-4a1a-9c16-b7c581fdaf7f)
+
+O Purview permite a descoberta e catalogação de todos os dados existentes no ambiente, incluindo dados sensíveis e informações confidenciais.
+
+O Purview oferece controle granular sobre quem pode acessar e interagir com os dados. As permissões podem ser gerenciadas de forma centralizada.
+
+A funcionalidade DLP oferecida pela Microsoft ajuda a evitar vazamentos acidentais ou intencionais de informações confidenciais. Ela monitora o tráfego de dados em tempo real e pode bloquear ou alertar sobre a transferência não autorizada de informações sensíveis.
+
+A solução permite um monitoramento detalhado e abrangente de todas as atividades de dados no ambiente. Isso inclui a capacidade de rastrear e registrar quem acessou, modificou ou compartilhou dados, fornecendo uma trilha de auditoria completa. 
+
+### Problema 6
+
+Precisamos centralizar a coleta de dados de infraestrutura, software recursos, e termos a 
+possibilidade de, com base nestes dados coletados, dispararmos processos automatizados 
+para tratar alguns casos e/ou anomalias no ambiente. O que podemos utilizar aqui?
+
+![image](https://github.com/brunobonatini/Projeto-Seguranca-da-Informacao-EDN/assets/105396325/8cb4857a-d70e-4f98-8c8d-807a464bf2c1)
+
+Azure Firewall e o Network Security Groups (NSG) será utilizado para centralizar a coleta de dados de infraestrutura, software e recursos, além de permitir a automação de processos para tratar casos e anomalias no ambiente de maneira eficaz.
+
+O Azure Firewall pode ser configurado para registrar informações detalhadas sobre o tráfego de rede, incluindo fonte, destino, protocolo e portas. Isso centraliza a coleta de dados de infraestrutura e tráfego de rede em um local único e acessível.
+
+Os registros de tráfego do Azure Firewall podem ser usados para análise posterior, permitindo a identificação de atividades suspeitas ou anomalias na rede.
+
+Os NSGs são conjuntos de regras de segurança que podem ser aplicados a nível de rede e vão controlar o tráfego de entrada e saída para recursos específicos no Azure.
+
+Os NSGs permitem centralizar a definição de regras de segurança que determinam quais tipos de tráfego são permitidos ou bloqueados.
+
+
+
+
